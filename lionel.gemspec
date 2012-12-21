@@ -12,8 +12,8 @@ Gem::Specification.new do |gem|
     Engine gems are convenient for versioning and packaging static assets.  Lionel lets you use assets packaged as Engines without depending on Rails.
   EOF
   gem.summary       = %q{Use assets packaged as Engines without Rails}
-  gem.homepage      = ""
-  gem.license       = "MIT"
+  gem.homepage      = "https://github.com/gkop/lionel"
+  gem.licenses      = ["MIT", "BSD", "WTFPL"]
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
