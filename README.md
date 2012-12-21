@@ -1,6 +1,6 @@
 # Lionel
 
-TODO: Write a gem description
+Engine gems are convenient for versioning and packaging static assets.  Lionel lets you use assets packaged as Engines without depending on Rails.
 
 ## Installation
 
@@ -12,13 +12,13 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
+## Known Supported Engines
 
-    $ gem install lionel
+* [jquery-rails](https://rubygems.org/gems/jquery-rails)
 
-## Usage
+## Known Supported Frameworks
 
-TODO: Write usage instructions here
+* [Middleman](http://middlemanapp.com/): [Demo App](https://github.com/gkop/lionel-middleman-demo)
 
 ## Contributing
 
