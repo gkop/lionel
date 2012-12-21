@@ -15,6 +15,13 @@ And then execute:
 ## Known Supported Engines
 
 * [jquery-rails](https://rubygems.org/gems/jquery-rails)
+* [jquery-ui-rails](https://rubygems.org/gems/jquery-ui-rails)
+* [knockoutjs-rails](https://rubygems.org/gems/knockoutjs-rails)
+* [underscore-rails](https://rubygems.org/gems/underscore-rails)
+
+## Known Unsupported Engines
+
+* [backbone-rails](https://rubygems.org/gems/backbone-rails) - depends on Rails so lionel isn't necessary.
 
 ## Known Supported Frameworks
 
