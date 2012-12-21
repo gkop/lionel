@@ -8,8 +8,10 @@ Gem::Specification.new do |gem|
   gem.version       = Lionel::VERSION
   gem.authors       = ["Gabe Kopley"]
   gem.email         = ["gabe@coshx.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = <<-EOF
+    Engine gems are convenient for versioning and packaging static assets.  Lionel lets you use assets packaged as Engines without depending on Rails.
+  EOF
+  gem.summary       = %q{Use assets packaged as Engines without Rails}
   gem.homepage      = ""
   gem.license       = "MIT"
 
