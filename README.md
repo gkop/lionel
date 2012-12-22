@@ -12,6 +12,16 @@ And then execute:
 
     $ bundle
 
+### Installation - Middleman
+
+If you want to serve/build assets from an engine, add this to your config.rb
+
+    activate :lionel do |l|
+      l.engines_with_images << "#{engine_name}"
+    end
+
+(see the [demo app](https://github.com/gkop/lionel-middleman-demo/blob/master/config.rb) for example)
+
 ## Known Supported Engines
 
 * [jquery-rails](https://rubygems.org/gems/jquery-rails)
